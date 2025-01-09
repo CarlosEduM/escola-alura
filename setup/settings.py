@@ -37,9 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'escola',
     'rest_framework',
-    'django_filters'
+    'django_filters',
+    'drf_yasg',
+    'escola'
 ]
 
 MIDDLEWARE = [
